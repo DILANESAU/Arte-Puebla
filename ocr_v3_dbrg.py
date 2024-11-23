@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Las1nm8IL-wucUwKFZ0nSLQsTRqJqqi0
 """
 
-|# Conectar con Google Drive
+# Conectar con Google Drive
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -40,8 +40,8 @@ drive.mount('/content/drive')
 # en campos específicos como fecha, hora y lugar, para luego almacenarlo en un CSV.
 # --------------------------------------------------------------------------------
 
-#Instalar librerías necesarias
-!pip install easyocr pyspellchecker pandas
+#Instalar librerías necesarias correcion 
+#!pip install easyocr pyspellchecker pandas
 
 import easyocr
 
